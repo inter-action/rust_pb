@@ -1,0 +1,13 @@
+[package]
+name = "rustpb"
+version = "0.1.0"
+authors = ["miao jing <243127395@qq.com>"]
+
+[dependencies]
+
+[dev-dependencies]
+bencher = "0.1.2"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
